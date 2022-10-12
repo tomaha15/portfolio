@@ -1,0 +1,40 @@
+body{font-family: 'M PLUS 1', sans-serif;
+}
+
+.desktop{
+    display: none;
+}
+@media (min-width: 768px){
+    .desktop{
+        display: initial;
+
+}
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+a.logo{
+    height: 12px;
+    width: 12px;
+    color: inherit;
+}
+
+header a{
+    color: inherit;
+}
+header nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header nav.center{
+    text-align: center;
+}
+
+header nav.right{
+    text-align: right;
+}
